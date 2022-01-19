@@ -1,44 +1,64 @@
-# RUBY_ON_RAILS_TUTORIAL_6TH_EDITION
-## hello_app 
-<a href='http://github.com/wgcreative90/hello_app' text="(Link to hello_app on Github)">(Link to hello_app on Github)</a>
-### Description
-<img width="392" alt="Screen Shot 2022-01-18 at 10 53 39 AM" src="https://user-images.githubusercontent.com/94640109/149971656-c24fb96f-e2e0-43e4-88d5-358d187a7443.png">
+# Ruby on Rails Tutorial
 
-<img width="459" alt="Screen Shot 2022-01-18 at 10 59 36 AM" src="https://user-images.githubusercontent.com/94640109/149973017-12a1662c-4b3e-42b1-84ce-3691900c1ec5.png">
+## "hello, world!"
 
+This is the first application for the
+[*Ruby on Rails Tutorial*](https://www.railstutorial.org/)
+by [Michael Hartl](https://www.michaelhartl.com/). Hello, world!
 
-* Ruby Version: 2.7.0p0
+## Description
+   
+* [Course breakdown screenshot](https://user-images.githubusercontent.com/94640109/149971656-c24fb96f-e2e0-43e4-88d5-358d187a7443.png)
+    
+    * Current version at time of commit - Rails -v 6.1.4.1
+    * Course projects: Parts: 1.hello_app, 2.toy_app, 3.final_sample_app
 
-* System dependencies: 
-    - Rails -v 6.1.4.1
-    - Node -v 16.13.0
-    - Yarn -v 1.22.15
-    - Bundler -v 2.2.29
-    - Git -v 2.32.0
-    - Ruby -v 2.7.0p0
+    * Additional resources:
+      - [markdown](https://www.markdownguide.org/extended-syntax/#highlight)
+      - [O.S.Git](https://ohshitgit.com/)
 
-* Configuration
-    - `git clone git@github.com:wgcreative90/hello_app.git` to clone repo to current directory or pass a new path after a space, for an alternate location.
-    - cd into working directory via: `cd hello_app`
-    - Copy Gemfile and make sure you have installed proper gem and package version's on          development enviornment. 
-    - run `gem install bundler -v 2.2.29` inside working dir
-    - run `bundle _2.2.29_ update` inside working dir
-    - Create new tab in terminal and make sure you are cd'd into hello_app wrkdir.
-    - run `rails server`
+    ### Dependencies (packages, gems, )
+    * System
+        * [Ruby](2.7.0) 2.7.0
+        * [Node](16.13.0) 16.13.0
+        * [Yarn](1.22.15) 1.22.15
+        * [Git](2.32.0) 2.32.0
+    * Project gems
+        * gem [rails](https://github.com) -v '6.1.4.1'
+        * gem [bundler](https://github.com) -v '2.2.29'
+        * gem [sass-rails](https://github.com) -v '2.2.29'
+        * gem [webpacker](https://github.com) -v '2.2.29'
+        * gem [commonmarker](https://github.com/gjtorikian/commonmarker) -v: not specified
 
-* Database creation
-    - There is no DB created yet
+    ### Configuration, Cloning, and Startup:
 
-* Database initialization
-    - There is no DB created yet
+    #### In Terminal READ and then run:
+    ##### Print working directory to confirm location for downloading repository.
+    ##### run: pwd
+    ##### run: git clone git@github.com:wgcreative90/hello_app.git
+    ##### run: cd hello_app
+    ##### run rails -v && ruby -v && node -v && bundler -v && yarn -v && git version
+    ##### run gem install bundler -v 2.2.29
+    ##### run: bundle _2.2.29_ update
 
-* How to run the test suite
-    - No tests added yet
+    ##### (Now check versions of rails and bundler to make sure they are accurate.)
+    ##### run: bundler -v
+    ##### run: rails -v
+        
+    ##### If versions are correct and you were able to bundle update without errors go ahead and start the rails development server on local machine.
+    ##### run: rails server
+    ##### In browser, navigate to: [localhost:3000](http://localhost:3000)
 
-* Services (job queues, cache servers, search engines, etc.)
+    ## Database
+    * Database creation: NA
+    * Database initialization: NA
+
+    ## Testing
+    * How to run the test suite - No tests added yet
+
+    ## Services (job queues, cache servers, search engines, etc.)
     - TODO: add as they are built in.
 
-* Deployment instructions
+    ## Deployment instructions
     - TODO: define deployment instructions
 
-* ...TODO: continue to build out
