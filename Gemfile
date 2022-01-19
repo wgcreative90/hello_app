@@ -8,7 +8,7 @@ gem 'webpacker',  '5.4.0'
 gem 'turbolinks', '5.2.1'
 gem 'jbuilder',   '2.10.0'
 gem 'bootsnap',   '1.7.2', require: false
-gem 'commonmarker'
+gem 'commonmarker',
 
 group :development, :test do
   gem 'sqlite3', '1.4.2'
@@ -28,7 +28,11 @@ group :test do
   gem 'webdrivers',         '4.6.0'
 end
 
+group :production do
+  gem 'pg', '1.2.3'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # Uncomment the following line if you're running Rails
 # on a native Windows system:
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
