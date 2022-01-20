@@ -49,6 +49,7 @@ by [Michael Hartl](https://www.michaelhartl.com/). Hello, world!
     ##### run: rails server
     ##### In browser, navigate to: [localhost:3000](http://localhost:3000)
 
+
     ## Database
     * Database creation: NA
     * Database initialization: NA
@@ -60,5 +61,5 @@ by [Michael Hartl](https://www.michaelhartl.com/). Hello, world!
     - TODO: add as they are built in.
 
     ## Deployment instructions
-    - TODO: define deployment instructions
+    [hello_app on Heroku](https://r-on-r-tutorial-hello-world.herokuapp.com/)
 
